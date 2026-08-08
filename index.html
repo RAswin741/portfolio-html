@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>R. Aswin — Python Developer | AI/ML Developer | GenAI Developer</title>
+  <meta name="description" content="Portfolio of R. Aswin, a Python developer specializing in backend engineering, RAG pipelines, and LLM-powered applications." />
+  <meta name="keywords" content="R. Aswin, Python Developer, AI Developer, Machine Learning Developer, Generative AI Developer, RAG Pipeline Developer, FastAPI Developer, LLM Integration" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="R. Aswin — Python Developer | AI/ML Developer | GenAI Developer" />
+  <meta property="og:description" content="Portfolio of R. Aswin, a Python developer specializing in backend engineering, RAG pipelines, and LLM-powered applications." />
+  <meta property="og:image" content="assets/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Add a favicon.ico to /assets and uncomment the line below -->
+  <!-- <link rel="icon" href="assets/favicon.ico" /> -->
+
+  <!-- Self-hosted fonts (no external requests, works offline, better for GitHub Pages) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar">
+    <div class="container navbar-inner">
+      <a href="#" class="logo text-gradient">R. Aswin</a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#what-i-build">What I Build</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navbar-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+        <a href="assets/resume.pdf" class="btn btn-gradient" download>Resume</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#what-i-build">What I Build</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="assets/resume.pdf" class="btn btn-gradient" download style="align-self:flex-start;margin-top:0.5rem;">Download Resume</a>
+  </div>
+
+  <!-- ================= HERO ================= -->
+  <header class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="hero-status"><span class="dot"></span> Available for opportunities</div>
+        <h1 class="hero-name">R. Aswin</h1>
+        <h2 class="hero-role"><span class="role-cycle text-gradient" id="roleCycle">Python Developer</span></h2>
+        <p class="hero-copy">
+          I build production-grade backend systems and AI applications — from REST APIs and
+          authentication systems to RAG pipelines and LLM-powered automation. I turn unstructured
+          data and language models into working software.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-gradient">
+            Explore My Work
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="assets/resume.pdf" class="btn btn-outline" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download Resume
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a class="social-icon" href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.16.69-3.83-1.34-3.83-1.34-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.65 1.23 3.3.94.1-.73.4-1.23.72-1.51-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.16a10.9 10.9 0 0 1 5.72 0c2.18-1.47 3.14-1.16 3.14-1.16.62 1.57.23 2.73.11 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.66 5.31-5.19 5.59.41.35.77 1.04.77 2.1 0 1.52-.01 2.74-.01 3.11 0 .3.2.66.79.55A11.25 11.25 0 0 0 23.25 11.75C23.25 5.48 18.27.5 12 .5Z"/></svg>
+          </a>
+          <a class="social-icon" href="https://linkedin.com/in/aswin-r-5136a024a" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></svg>
+          </a>
+          <a class="social-icon" href="mailto:ashuaswin25@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6c0-1.1-.9-2-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V6Z"/><polyline points="22 6 12 13 2 6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="terminal glass">
+        <div class="terminal-header">
+          <span class="terminal-dot" style="background:#ff5f57"></span>
+          <span class="terminal-dot" style="background:#febc2e"></span>
+          <span class="terminal-dot" style="background:#28c840"></span>
+          <span class="label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8l3 3-3 3M13 14h4"/></svg>
+            query.py
+          </span>
+        </div>
+        <pre><span class="kw-violet">response</span> = rag_pipeline.query(
+  <span class="kw-teal">&quot;Summarize the key points&quot;</span>,
+  top_k=<span class="kw-emerald">5</span>
+)
+print(response.answer)
+<span style="color: var(--foreground-faint)"># → grounded, source-cited response</span></pre>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow">About</div>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <p class="about-text reveal">I'm a Python developer who works at the intersection of backend
+engineering and applied AI. My day-to-day involves building REST APIs, designing
+data pipelines, and integrating large language models into real products —
+turning retrieval systems, embeddings, and prompt-driven workflows into
+software people can actually use. I care about clean architecture as much as
+clever AI, because a RAG pipeline is only as good as the API and data layer
+underneath it.</p>
+    </div>
+  </section>
+
+  <!-- ================= WHAT I BUILD ================= -->
+  <section class="section" id="what-i-build">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow">Capabilities</div>
+        <h2 class="section-title">What I Build</h2>
+        <p class="section-description">Capabilities, not case studies</p>
+      </div>
+      <div class="capability-grid" id="capabilityGrid"></div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow">Toolbox</div>
+        <h2 class="section-title">Technical Skills</h2>
+      </div>
+      <div class="skill-grid" id="skillGrid"></div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow">Career</div>
+        <h2 class="section-title">Experience</h2>
+      </div>
+
+      <div class="subsection-label reveal">Education</div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-role">B.Tech, Computer Science &amp; Engineering</div>
+          <div class="timeline-company">Sreenivasa Institute of Technology and Management Studies</div>
+          <div class="timeline-meta">
+            <span>2020 — 2024</span>
+            <span>CGPA: 7.0</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="subsection-label reveal">Work Experience</div>
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow">Work</div>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+      <div class="project-grid" id="projectGrid"></div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow">Get In Touch</div>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-description">Open to Python / AI-ML / GenAI opportunities</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-links glass reveal">
+          <a class="contact-link-item" href="mailto:ashuaswin25@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 6c0-1.1-.9-2-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V6Z"/><polyline points="22 6 12 13 2 6"/></svg>
+            ashuaswin25@gmail.com
+          </a>
+          <a class="contact-link-item" href="tel:+917416880765">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            +91 7416880765
+          </a>
+          <a class="contact-link-item" href="https://linkedin.com/in/aswin-r-5136a024a" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></svg>
+            linkedin.com/in/aswin-r
+          </a>
+          <a class="contact-link-item" href="https://github.com/your-username" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.16.69-3.83-1.34-3.83-1.34-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.65 1.23 3.3.94.1-.73.4-1.23.72-1.51-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.16a10.9 10.9 0 0 1 5.72 0c2.18-1.47 3.14-1.16 3.14-1.16.62 1.57.23 2.73.11 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.66 5.31-5.19 5.59.41.35.77 1.04.77 2.1 0 1.52-.01 2.74-.01 3.11 0 .3.2.66.79.55A11.25 11.25 0 0 0 23.25 11.75C23.25 5.48 18.27.5 12 .5Z"/></svg>
+            github.com/your-username
+          </a>
+        </div>
+
+        <form class="contact-form-card glass reveal" id="contactForm" novalidate>
+          <div class="form-status" id="formStatus">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <span id="formStatusText"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="name">Name</label>
+            <input class="form-input" type="text" id="name" name="name" />
+            <div class="form-error-text" id="nameError" style="display:none"></div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Email</label>
+            <input class="form-input" type="email" id="email" name="email" />
+            <div class="form-error-text" id="emailError" style="display:none"></div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-textarea" id="message" name="message"></textarea>
+            <div class="form-error-text" id="messageError" style="display:none"></div>
+          </div>
+          <button type="submit" class="btn btn-gradient" style="width:100%">
+            Send Message
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> R. Aswin. Built with care.</span>
+      <div class="footer-socials">
+        <a class="social-icon" href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.16.69-3.83-1.34-3.83-1.34-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.65 1.23 3.3.94.1-.73.4-1.23.72-1.51-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.16a10.9 10.9 0 0 1 5.72 0c2.18-1.47 3.14-1.16 3.14-1.16.62 1.57.23 2.73.11 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.66 5.31-5.19 5.59.41.35.77 1.04.77 2.1 0 1.52-.01 2.74-.01 3.11 0 .3.2.66.79.55A11.25 11.25 0 0 0 23.25 11.75C23.25 5.48 18.27.5 12 .5Z"/></svg>
+        </a>
+        <a class="social-icon" href="https://linkedin.com/in/aswin-r-5136a024a" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
