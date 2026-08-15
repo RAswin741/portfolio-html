@@ -160,6 +160,9 @@ function observeReveals() {
       </div>
       <span class="badge timeline-badge">1.8+ Yrs Professional Experience</span>
       <p class="timeline-summary">${job.summary}</p>
+      <ul class="timeline-focus">
+        ${job.focusAreas.map((f) => `<li>${f}</li>`).join("")}
+      </ul>
     </div>`
   ).join("");
 })();

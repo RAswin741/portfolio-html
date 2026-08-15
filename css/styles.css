@@ -710,7 +710,30 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .timeline-summary {
   color: var(--foreground-muted);
   font-size: 0.9375rem;
+  margin-bottom: 1rem;
+}
+
+.timeline-focus {
   margin-bottom: 0;
+}
+
+.timeline-focus li {
+  position: relative;
+  padding-left: 1.1rem;
+  font-size: 0.875rem;
+  color: var(--foreground-muted);
+  margin-bottom: 0.4rem;
+}
+
+.timeline-focus li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent-violet);
 }
 
 /* ==========================================================================

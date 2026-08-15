@@ -17,9 +17,9 @@ const CAPABILITIES = [
 ];
 
 const SKILL_CATEGORIES = [
-  { id: "languages", label: "Programming Languages", icon: "code", skills: ["Python"] },
+  { id: "languages", label: "Programming Languages", icon: "code", skills: ["Python", "SQL"] },
   { id: "backend", label: "Backend Development", icon: "server", skills: ["FastAPI", "REST APIs", "Pydantic", "JWT Auth", "WebSockets", "CRUD Operations"] },
-  { id: "ai-ml", label: "AI & Machine Learning", icon: "brain-circuit", skills: ["NLP", "OCR", "Vector Embeddings", "ML Pipelines", "Semantic Search"] },
+  { id: "ai-ml", label: "AI & Machine Learning", icon: "brain-circuit", skills: ["NLP", "OCR", "Vector Embeddings", "ML Pipelines", "Semantic Search", "PyTorch"] },
   { id: "genai", label: "Generative AI", icon: "sparkles", skills: ["LLMs", "RAG Pipelines", "OpenAI API", "Ollama / Llama 3", "HuggingFace", "Prompt Engineering"] },
   { id: "databases", label: "Databases & Caching", icon: "database", skills: ["MySQL", "PostgreSQL", "Redis", "ChromaDB", "FAISS"] },
   { id: "devops", label: "DevOps & Tools", icon: "wrench", skills: ["Git", "GitHub", "Bitbucket", "JIRA", "Postman"] },
@@ -33,18 +33,24 @@ const EXPERIENCE = [
     company: "Dalvkot Utility Enterprises Limited",
     location: "Bengaluru",
     duration: "Oct 2024 — Present",
-    summary: "Working on backend systems and AI-driven features involving Python, FastAPI, and LLM-based tooling in a production environment. Focused on API development, data pipeline design, and integrating generative AI capabilities into existing workflows.",
+    summary: "Working across multiple production systems spanning real-time data integration, AI-powered document intelligence, and applied machine learning for decision support. Delivered measurable improvements in processing speed and accuracy across enterprise backend workflows, using Python, FastAPI, PyTorch, and LLM-based tooling.",
+    focusAreas: [
+      "Real-time data integration & messaging pipelines",
+      "AI-powered document intelligence & retrieval (RAG)",
+      "Applied machine learning for decision support systems",
+      "Secure, scalable REST API design",
+    ],
   },
 ];
 
 // TODO: Replace these with your real personal / open-source projects as you build them.
 const PROJECTS = [
   {
-    title: "Open-Source RAG Chatbot",
+    title: "Chest X-Ray Screening Assistant",
     status: "In Progress",
-    description: "A retrieval-augmented chatbot over open datasets, built with ChromaDB and an open-weight LLM. Repo is live; write-up in progress.",
-    features: ["Document ingestion & chunking pipeline", "Vector search with ChromaDB", "Streaming LLM responses"],
-    tech: ["Python", "FastAPI", "ChromaDB", "OpenAI API"],
+    description: "An open-source computer-vision tool that flags regions of interest in chest X-rays for review, using pre-trained open-weight models and Grad-CAM visual explanations. Built as a screening aid, not a diagnostic device.",
+    features: ["Multi-label finding classification (TorchXRayVision)", "Grad-CAM heatmap overlay for explainability", "Confidence-scored findings list with clear non-diagnostic disclaimer"],
+    tech: ["Python", "PyTorch", "TorchXRayVision", "MONAI", "FastAPI"],
     gradient: "linear-gradient(135deg, rgba(45,212,191,0.25), rgba(129,140,248,0.25))",
     githubUrl: "",
     liveUrl: "",
